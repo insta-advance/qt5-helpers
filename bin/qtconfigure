@@ -1,0 +1,2 @@
+#!/bin/sh
+$QT_SOURCE/qtbase/configure -nomake tests -nomake examples -opensource -developer-build -confirm-license $@
