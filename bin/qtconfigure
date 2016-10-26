@@ -1,2 +1,2 @@
 #!/bin/sh
-$QT_SOURCE/qtbase/configure -nomake tests -nomake examples -opensource -developer-build -confirm-license $@
+$QT_SOURCE/qtbase/$QT_BRANCH/configure -nomake tests -nomake examples -opensource -developer-build -confirm-license $@
